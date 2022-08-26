@@ -218,7 +218,7 @@ nav a:hover::after {
         width: clamp(15em, 25% + 10vw, 20em);
         position: fixed;
         right: -20em;
-        top: 5rem;
+        top: 7rem;
     }
 
     .side-nav-bar a {
@@ -262,6 +262,7 @@ header {
 .header-text h2 {
     font-size: var(--fs-600);
     font-weight: normal;
+    line-height: 1.2;
 }
 
 .intro-buttons {
@@ -273,14 +274,16 @@ header {
 
 .to-services {
     color: var(--light-color);
-    outline: 0.2rem solid var(--light-color);
+    border: 0.2rem solid var(--light-color);
     background-color: transparent;
+    margin-inline: 1.2rem;
 }
 
 .to-contact {
     border: 0.2rem solid var(--light-color);
     background-color: var(--light-color);
     color: black;
+    margin-inline: 1.2rem;
 }
 /* -------End------- */
 
