@@ -98,8 +98,8 @@ p {
 .button {
     font-size: var(--fs-400);
     margin-top: auto;
-    margin-bottom: 1.5rem;
-    margin-inline: 1.5rem;
+    margin-bottom: 2rem;
+    margin-inline: 2rem;
     padding: 0.8rem 2rem;
     border: none;
     background-color: var(--primary-color);
@@ -117,7 +117,7 @@ p {
 }
 .button:hover {
     transform: scale(1.06);
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px 2px rgba(32, 31, 31, 0.3);
 }
 /* --------End-------- */
 
@@ -140,16 +140,17 @@ nav {
     justify-content: space-between;
     font-size: var(--fs-400);
     padding-inline: min(5%, 10rem);
+    padding-block: 1rem;
     z-index: 10;
 }
 
 nav img {
-    width: 8rem;
+    width: 7rem;
 }
 
 nav a {
     text-decoration: none;
-    font-size: var(--fs-600);
+    font-size: var(--fs-400);
     color: var(--neutral-color);
     position: relative;
 }
@@ -205,6 +206,7 @@ nav a:hover::after {
         display: flex;
         cursor: pointer;
         z-index: 6;
+        font-size: 2.5rem;
     }
 
     .side-nav-bar {
@@ -271,7 +273,7 @@ header {
 
 .to-services {
     color: var(--light-color);
-    border: 0.2rem solid var(--light-color);
+    outline: 0.2rem solid var(--light-color);
     background-color: transparent;
 }
 
@@ -371,7 +373,7 @@ header {
 .why-choose-us-card {
     display: flex;
     flex-direction: column;
-    box-shadow: 0 0 1.2rem rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 10px 0 rgba(32, 31, 31, 0.1);
     margin-top: 1rem;
     flex: 0.4 1 34rem;
     background-color: var(--light-color);
@@ -383,11 +385,11 @@ header {
 }
 .why-choose-us-card h4 {
     font-size: var(--fs-600);
-    margin-inline: 1.5rem;
+    margin-inline: 2rem;
 }
 .why-choose-us-card p {
     font-size: var(--fs-400);
-    margin-inline: 1.5rem;
+    margin-inline: 2rem;
     color: var(--grey-color);
 }
 /* --------End------- */
@@ -436,7 +438,7 @@ Services
 .services-card {
     display: flex;
     flex-direction: column;
-    box-shadow: 0 0 1.2rem rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 10px 0 rgba(32, 31, 31, 0.1);
     margin-block: 1rem;
     flex: 0 0 35.5rem;
 }
@@ -446,11 +448,11 @@ Services
 }
 .services-card h4 {
     font-size: var(--fs-600);
-    margin-inline: 1.5rem;
+    margin-inline: 2rem;
 }
 .services-card p {
     font-size: var(--fs-400);
-    margin-inline: 1.5rem;
+    margin-inline: 2rem;
     color: var(--grey-color);
 }
 .button-next,
@@ -485,7 +487,7 @@ Services
 .swiper {
     width: 100%;
     height: 100%;
-    box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.4);
+    box-shadow: 0 2px 10px 0 rgba(32, 31, 31, 0.5);
 }
 .swiper-slide img {
     display: block;
