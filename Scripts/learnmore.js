@@ -2,7 +2,7 @@
 const modalContent = [
     {
         id: "ee1",
-        imgSrc: "./Images/Commercial Development.jpg",
+        imgSrc: "./Images/Commercial Development.png",
         heading: "Commercial Development",
         text: "Henrich Properties Limited commercial developments include some of the finest and most desirable office properties and its landmark construction of a shopping mall in the Federal Capital Territory. Each property is meticulously maintained and features the latest amenities and services. As a result, the company continues to attract and retain a distinguished and growing roster of tenants. Henrich Properties Limited continues to evolve in response to the changing aspirations and challenges of developers, owners and occupants alike. To lift the competitive performance of a building project, or to help it find funding in tough markets, Henrich Properties Limited offers a powerful combination of advisory, design and technical services: •Property Development & Investment •Project Aqcuisition & Management •Project Marketing & Sales. The company's major commercial developments include the direct financing and development of residential and commercial properties in Abuja, Katsina, Kaduna and in Ilorin, Kwara State capital.",
     },
