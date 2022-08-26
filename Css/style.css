@@ -269,20 +269,14 @@ header {
     justify-content: center;
 }
 
-.intro-buttons a {
-    text-decoration: none;
-    font-size: var(--fs-400);
-    margin-inline: min(1rem, 1.5rem);
-    padding-block: clamp(0.2rem, 0.5vw + 0.2rem, 0.5rem);
-    padding-inline: clamp(0.3rem, 1vw + 1rem, 1.5rem);
-}
-
 .to-services {
     color: var(--light-color);
-    outline: 0.2rem solid var(--light-color);
+    border: 0.2rem solid var(--light-color);
+    background-color: transparent;
 }
 
 .to-contact {
+    border: 0.2rem solid var(--light-color);
     background-color: var(--light-color);
     color: black;
 }
