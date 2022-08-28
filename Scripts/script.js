@@ -83,7 +83,7 @@ prev.addEventListener("click", () => {
 // ==========================
 
 // =====================
-//INTERSECTION OBSERVER
+//BACK TO TOP BUTTON
 // =====================
 const homePage = document.querySelector(".home-page");
 const backToTopBtn = document.querySelector(".back-to-top");
@@ -99,6 +99,24 @@ const observer = new IntersectionObserver((entries, observer) => {
 }, options);
 
 observer.observe(homePage);
+// =========================
+
+// =========================
+// REVEAL ANIMATION
+// =========================
+const reveals = document.querySelectorAll(".reveal");
+
+reveals.forEach((reveal) => {
+    const optionsTwo = {
+        rootMargin: "+5000px 0px -120px 0px",
+    };
+    const observerTwo = new IntersectionObserver((entries, observer) => {
+        entries[0].isIntersecting
+            ? reveal.classList.add("active")
+            : reveal.classList.remove("active");
+    }, optionsTwo);
+    observerTwo.observe(reveal);
+});
 // =========================
 
 // =======================
